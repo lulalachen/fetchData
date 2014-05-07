@@ -33,10 +33,14 @@ module.exports.routes = {
   // 
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': {
-    view: 'fetchData/fetchData'
-    //controller: 'FetchDataController',
-    //action: 'new'
-  }
+    //view: 'fetchData/fetchData'
+    controller: 'FetchDataController',
+    action: 'new'
+  },
+  '/search': {
+    controller: 'FetchDataController',
+    action: 'search'
+  },
 
   /*
   // But what if you want your home page to display
