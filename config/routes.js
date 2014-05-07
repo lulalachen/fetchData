@@ -33,9 +33,9 @@ module.exports.routes = {
   // 
   // (This would also work if you had a file at: `/views/home.ejs`)
   '/': {
-    //view: 'fetchData/fetchData'
-    controller: 'FetchDataController',
-    action: 'new'
+    view: 'fetchData/fetchData'
+    //controller: 'FetchDataController',
+    //action: 'search'
   },
   '/search': {
     controller: 'FetchDataController',
