@@ -36,7 +36,6 @@ module.exports = {
       var input = req.param('stockNumber');
       var url = "http://www.cnyes.com/twstock/finratio/" + input + ".htm";
       console.log("helloooo");
-      res.redirect = (url);
       function download(url, callback) {
       http.get(url, function(res) {
           var data = "";
@@ -61,7 +60,7 @@ module.exports = {
           res.write($('.tab').html());
           res.write("</body></html>");
           console.log("done");
-      }
+        }
         else console.log("error");  
       });
   },
