@@ -1,0 +1,465 @@
+<!-- Default home page -->
+<link type="text/css" href='http://sailsjs.org/styles/fonts.css' rel='stylesheet'/>
+<style>
+    /* Styles included inline since you'll probably be deleting this page anyway */
+    html,body{text-align:left;font-size:1em}html,body,img,form,textarea,input,fieldset,div,p,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code{margin:0;padding:0}ul,li{list-style:none}img{display:block}a img{border:0}a{text-decoration:none;font-weight:normal;font-family:inherit}*:active,*:focus{outline:0;-moz-outline-style:none}h1,h2,h3,h4,h5,h6{font-weight:normal}div.clear{clear:both}.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}body{font-family:"Open Sans",Arial,sans-serif;font-weight:300;font-size:15px}h1{color:#0c8da0;font-size:2em;font-weight:300}h2{font-size:1.5em;font-weight:300;margin-top:4%}h3{font-size:1.25em;font-weight:300;font-style:italic;margin-bottom:5px}h4{color:#0c8da0;font-weight:300;font-size:1.5em}span{font-weight:700}ul{margin-top:5%;margin-bottom:5%}a{text-decoration:none;color:inherit}p{margin-bottom:7px;font-size:.9em}.container{max-width:997px;margin:0 auto;padding:0 4%}.sprite{font-weight:normal;background:url(http://sailsjs.org/images/newapp.sprite.png) no-repeat}.top-bar{position:relative;padding-top:10px;background-color:#001c20;height:55px}.main{float:left;max-width:610px;height:555px;margin-top:50px}.steps{height:250px}.getting-started p{ margin-bottom: 30px; line-height: 26px; }.getting-started div{float:left;width:540px}.getting-started li{clear:both;height:60px;margin-top:20px;margin-bottom:20px}.getting-started .sprite{margin-left:10px;padding-left:60px;height:42px;width:0}.getting-started .one{background-position:0 0}.getting-started .two{background-position:0 -42px}.getting-started .three{background-position:0 -83px}.delete{margin-top:5%;height:52px;background:#e3f0f1;border:1px solid #118798;color:#118798;clear:both}.delete .sprite{margin-top:10px;margin-bottom:10px;margin-left:9%;padding-left:42px;padding-top:7px;height:25px;background-position:0 -126px}.delete a{color:#0c8da0;font-weight:bold;padding-left:1%}.side-bar{max-width:327px;height:555px;float:left;border-left:1px solid #0c8da0;margin-left:25px;margin-top:50px;padding-left:25px}.side-bar ul{margin-bottom:10%}.side-bar ul li{margin-top:5px;margin-bottom:.25em}.side-bar ul li a{margin-bottom:.25em}.side-bar .sprite{padding-left:25px}.side-bar .single_page{background-position:0 -199px}.side-bar .traditional{background-position:0 -219px}.side-bar .realtime{background-position:0 -179px}.side-bar .api{background-position:0 -158px}.boxy{font-family:Courier,"Courier New",sans-serif;background-color:#e4edec;border:1px solid #d0d6d6;padding-left:5px;padding-right:5px;padding-top:2px;padding-bottom:2px;font-weight:100}.sixteen{margin-right:10px}.nineteen{margin-right:7px}div.tabletable{font-family: Helvetica;margin-left: 1px;}
+        .main { width: 100%; }
+        body { min-width: 925px; }
+</style>
+<!--[if IE 7]>
+    <style>
+    .getting-started li{overflow:visible;clear:both}.delete{width:690px}
+    </style>
+<![endif]-->
+<meta content="html" type="utf-8" />
+<div class="top-bar">
+    <div class="container clearfix">
+        <img class="logo" src="http://sailsjs.org/images/sails-logo.jpg" />
+    </div>
+</div>
+<div class="tabletable">
+     <table id="ctl00_ContentPlaceHolder1_tb">
+        <tr class="thbtm2">
+            <th>項目</th>
+            <th>名稱</th>
+            <th>2013年Q4</th>
+            <th>2013年Q3</th>
+            <th>2013年Q2</th>
+            <th>2013年Q1</th>
+            <th>2012年Q4</th>
+        </tr>
+        <tr>
+            <td rowspan="7" class="ltpd borbm">財務結構</td>
+            <td class="ltpd">負債占資產比率</td>
+            <td class="rt">19.30</td>
+            <td class="rt">21.32</td>
+            <td class="rt">22.66</td>
+            <td class="rt">19.78</td>
+            <td class="rt">19.88</td>
+        </tr>
+        <tr>
+            <td class="ltpd">長期負債比率</td>
+            <td class="rt">3.01</td>
+            <td class="rt">3.21</td>
+            <td class="rt">2.68</td>
+            <td class="rt">3.25</td>
+            <td class="rt">2.91</td>
+        </tr>
+        <tr>
+            <td class="ltpd">權益比率</td>
+            <td class="rt">80.70</td>
+            <td class="rt">78.68</td>
+            <td class="rt">77.34</td>
+            <td class="rt">80.22</td>
+            <td class="rt">80.12</td>
+        </tr>
+        <tr>
+            <td class="ltpd">財務槓桿比率</td>
+            <td class="rt">123.92</td>
+            <td class="rt">127.10</td>
+            <td class="rt">129.30</td>
+            <td class="rt">124.66</td>
+            <td class="rt">124.81</td>
+        </tr>
+        <tr>
+            <td class="ltpd">負債權益比</td>
+            <td class="rt">23.91</td>
+            <td class="rt">27.10</td>
+            <td class="rt">29.31</td>
+            <td class="rt">24.66</td>
+            <td class="rt">24.81</td>
+        </tr>
+        <tr>
+            <td class="ltpd">權益負債比</td>
+            <td class="rt">418.16</td>
+            <td class="rt">369.00</td>
+            <td class="rt">341.21</td>
+            <td class="rt">405.46</td>
+            <td class="rt">403.08</td>
+        </tr>
+        <tr>
+            <td class="ltpd borbm">長期資金占固定資產比率</td>
+            <td class="rt borbm">143.67</td>
+            <td class="rt borbm">145.11</td>
+            <td class="rt borbm">141.06</td>
+            <td class="rt borbm">140.69</td>
+            <td class="rt borbm">140.55</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="ltpd borbm">償債能力</td>
+            <td class="ltpd">流動比率</td>
+            <td class="rt">256.22</td>
+            <td class="rt">240.52</td>
+            <td class="rt">216.54</td>
+            <td class="rt">245.96</td>
+            <td class="rt">254.16</td>
+        </tr>
+        <tr>
+            <td class="ltpd">速動比率</td>
+            <td class="rt">201.03</td>
+            <td class="rt">184.31</td>
+            <td class="rt">179.00</td>
+            <td class="rt">189.87</td>
+            <td class="rt">204.80</td>
+        </tr>
+        <tr>
+            <td class="ltpd borbm">利息保障倍數</td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm">99.97</td>
+            <td class="rt borbm">22.86</td>
+            <td class="rt borbm">30.56</td>
+        </tr>
+        <tr>
+            <td rowspan="9" class="ltpd borbm">經營能力</td>
+            <td class="ltpd">應收款項週轉率</td>
+            <td class="rt"></td>
+            <td class="rt">2.73</td>
+            <td class="rt">0.81</td>
+            <td class="rt">1.06</td>
+            <td class="rt">4.71</td>
+        </tr>
+        <tr>
+            <td class="ltpd">應收款項收現日數</td>
+            <td class="rt"></td>
+            <td class="rt">133.60</td>
+            <td class="rt">453.18</td>
+            <td class="rt">343.51</td>
+            <td class="rt">77.52</td>
+        </tr>
+        <tr>
+            <td class="ltpd">應付帳款週轉率</td>
+            <td class="rt">11.81</td>
+            <td class="rt">4.25</td>
+            <td class="rt">3.11</td>
+            <td class="rt">1.33</td>
+            <td class="rt">7.05</td>
+        </tr>
+        <tr>
+            <td class="ltpd">應付帳款支付日數</td>
+            <td class="rt">30.91</td>
+            <td class="rt">85.90</td>
+            <td class="rt">117.42</td>
+            <td class="rt">274.22</td>
+            <td class="rt">51.78</td>
+        </tr>
+        <tr>
+            <td class="ltpd">存貨週轉率</td>
+            <td class="rt">11.67</td>
+            <td class="rt">5.31</td>
+            <td class="rt">4.02</td>
+            <td class="rt">1.79</td>
+            <td class="rt">8.48</td>
+        </tr>
+        <tr>
+            <td class="ltpd">平均銷貨日數</td>
+            <td class="rt">31.27</td>
+            <td class="rt">68.69</td>
+            <td class="rt">90.88</td>
+            <td class="rt">204.33</td>
+            <td class="rt">43.03</td>
+        </tr>
+        <tr>
+            <td class="ltpd">存貨變現天數</td>
+            <td class="rt">31.27</td>
+            <td class="rt">202.28</td>
+            <td class="rt">544.07</td>
+            <td class="rt">547.84</td>
+            <td class="rt">120.55</td>
+        </tr>
+        <tr>
+            <td class="ltpd">營業循環期間</td>
+            <td class="rt">0.36</td>
+            <td class="rt">116.39</td>
+            <td class="rt">426.65</td>
+            <td class="rt">273.62</td>
+            <td class="rt">68.78</td>
+        </tr>
+        <tr>
+            <td class="ltpd">固定資產週轉率</td>
+            <td class="rt"></td>
+            <td class="rt">0.96</td>
+            <td class="rt">0.28</td>
+            <td class="rt">0.28</td>
+            <td class="rt">1.26</td>
+        </tr>
+        <tr>
+            <td rowspan="15" class="ltpd borbm">獲利能力</td>
+            <td class="ltpd">毛利率</td>
+            <td class="rt">14.98</td>
+            <td class="rt">16.54</td>
+            <td class="rt">16.65</td>
+            <td class="rt">15.17</td>
+            <td class="rt">17.39</td>
+        </tr>
+        <tr>
+            <td class="ltpd">成本率</td>
+            <td class="rt">85.02</td>
+            <td class="rt">83.46</td>
+            <td class="rt">83.35</td>
+            <td class="rt">84.83</td>
+            <td class="rt">82.61</td>
+        </tr>
+        <tr>
+            <td class="ltpd">營業毛利成長率</td>
+            <td class="rt">-5.32</td>
+            <td class="rt">-0.66</td>
+            <td class="rt">9.76</td>
+            <td class="rt">-12.77</td>
+            <td class="rt">-40.74</td>
+        </tr>
+        <tr>
+            <td class="ltpd">營業利益率</td>
+            <td class="rt">4.26</td>
+            <td class="rt">5.46</td>
+            <td class="rt">5.98</td>
+            <td class="rt">2.43</td>
+            <td class="rt">5.21</td>
+        </tr>
+        <tr>
+            <td class="ltpd">營業利益成長率</td>
+            <td class="rt">-12.45</td>
+            <td class="rt">-8.70</td>
+            <td class="rt">146.09</td>
+            <td class="rt">-51.59</td>
+            <td class="rt">-70.81</td>
+        </tr>
+        <tr>
+            <td class="ltpd">營業利益占實收資本比率</td>
+            <td class="rt">23.24</td>
+            <td class="rt">11.54</td>
+            <td class="rt">8.89</td>
+            <td class="rt">1.52</td>
+            <td class="rt">12.77</td>
+        </tr>
+        <tr>
+            <td class="ltpd">稅前純益占實收資本比率</td>
+            <td class="rt">23.36</td>
+            <td class="rt">11.39</td>
+            <td class="rt">9.14</td>
+            <td class="rt">1.67</td>
+            <td class="rt">13.25</td>
+        </tr>
+        <tr>
+            <td class="ltpd">稅前淨利率</td>
+            <td class="rt">4.36</td>
+            <td class="rt">5.39</td>
+            <td class="rt">6.15</td>
+            <td class="rt">2.68</td>
+            <td class="rt">5.21</td>
+        </tr>
+        <tr>
+            <td class="ltpd">純益率</td>
+            <td class="rt">3.24</td>
+            <td class="rt">3.98</td>
+            <td class="rt">4.41</td>
+            <td class="rt">2.22</td>
+            <td class="rt">4.42</td>
+        </tr>
+        <tr>
+            <td class="ltpd">每股盈餘</td>
+            <td class="rt">0.89</td>
+            <td class="rt">0.84</td>
+            <td class="rt">0.65</td>
+            <td class="rt">0.14</td>
+            <td class="rt">1.12</td>
+        </tr>
+        <tr>
+            <td class="ltpd">稀釋每股盈餘</td>
+            <td class="rt">0.89</td>
+            <td class="rt">0.84</td>
+            <td class="rt">0.65</td>
+            <td class="rt">0.14</td>
+            <td class="rt"></td>
+        </tr>
+        <tr>
+            <td class="ltpd">每股營收</td>
+            <td class="rt">48.58</td>
+            <td class="rt">21.15</td>
+            <td class="rt">6.25</td>
+            <td class="rt">6.26</td>
+            <td class="rt">25.44</td>
+        </tr>
+        <tr>
+            <td class="ltpd">每股營業利益</td>
+            <td class="rt">2.32</td>
+            <td class="rt">1.15</td>
+            <td class="rt">0.89</td>
+            <td class="rt">0.15</td>
+            <td class="rt">1.33</td>
+        </tr>
+        <tr>
+            <td class="ltpd">總資產報酬率</td>
+            <td class="rt">4.52</td>
+            <td class="rt">2.16</td>
+            <td class="rt">1.70</td>
+            <td class="rt">0.37</td>
+            <td class="rt">2.88</td>
+        </tr>
+        <tr>
+            <td class="ltpd borbm">股東權益報���率</td>
+            <td class="rt borbm">5.67</td>
+            <td class="rt borbm">2.77</td>
+            <td class="rt borbm">2.16</td>
+            <td class="rt borbm">0.46</td>
+            <td class="rt borbm">3.61</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="ltpd borbm">市場價值</td>
+            <td class="ltpd">本益比</td>
+            <td class="rt">36.69</td>
+            <td class="rt">36.69</td>
+            <td class="rt">36.69</td>
+            <td class="rt">36.69</td>
+            <td class="rt">48.57</td>
+        </tr>
+        <tr>
+            <td class="ltpd">盈餘收益率</td>
+            <td class="rt">2.73</td>
+            <td class="rt">2.57</td>
+            <td class="rt">1.99</td>
+            <td class="rt">0.43</td>
+            <td class="rt">3.29</td>
+        </tr>
+        <tr>
+            <td class="ltpd borbm">市價淨值比</td>
+            <td class="rt borbm">1.07</td>
+            <td class="rt borbm">1.07</td>
+            <td class="rt borbm">1.08</td>
+            <td class="rt borbm">1.08</td>
+            <td class="rt borbm">1.13</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="ltpd borbm">現金流量</td>
+            <td class="ltpd">現金比率</td>
+            <td class="rt">46.28</td>
+            <td class="rt">36.24</td>
+            <td class="rt">27.75</td>
+            <td class="rt">31.07</td>
+            <td class="rt">46.49</td>
+        </tr>
+        <tr>
+            <td class="ltpd">現金對流動負債比率</td>
+            <td class="rt">118.58</td>
+            <td class="rt">87.15</td>
+            <td class="rt">60.09</td>
+            <td class="rt">76.43</td>
+            <td class="rt">118.15</td>
+        </tr>
+        <tr>
+            <td class="ltpd">現金流量比率</td>
+            <td class="rt">39.53</td>
+            <td class="rt">11.88</td>
+            <td class="rt">-10.50</td>
+            <td class="rt">-17.86</td>
+            <td class="rt">42.67</td>
+        </tr>
+        <tr>
+            <td class="ltpd borbm">槓桿度</td>
+            <td class="ltpd">財務槓桿度</td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm">1.00</td>
+            <td class="rt borbm">1.00</td>
+            <td class="rt borbm">1.04</td>
+        </tr>
+        <tr>
+            <td rowspan="3" class="ltpd borbm">衍生性商品</td>
+            <td class="ltpd">衍生性商品操作金額</td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+        </tr>
+        <tr>
+            <td class="ltpd">衍生性商品操作程度</td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+            <td class="rt"></td>
+        </tr>
+        <tr>
+            <td class="ltpd borbm">衍生性商品績效表現</td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm"></td>
+            <td class="rt borbm"></td>
+        </tr>
+    </table>
+</div>
+<div class="container clearfix">
+    <div class="main">
+        <h1 id="main-title"><%= __('Welcome') %></h1>
+        <h2>Getting started</h2>
+        <p>Don't worry, we've got your back.</p>
+        <div class="steps">
+            <ul class="getting-started">
+                <li>
+                    <div class="sprite one"></div>
+                    <div>
+                        <h3>Get your API going.</h3>
+                        <p>
+                            Run <span class="boxy">sails generate foo</span>.  This will create a model <span class="boxy">Foo</span> and controller <span class="boxy">FooController</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="sprite two"></div>
+                    <div>
+                        <h3>
+                            Lift your app.
+                        </h3>
+                        <p>
+                            Run <span class="boxy">sails lift</span> to start up your app.  If you visit <span class="boxy">http://localhost:1337/foo</span> in your browser, you'll see a socket.io-compatible REST API was generated for your 'Foo' model.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div class="sprite three"></div>
+                    <div>
+                        <h3>
+                            Dive in and start building.
+                        </h3>
+                        <p>From here, you can modify your models, create custom controller methods as Express middleware, and create custom routes (routes are set up in <span class="boxy">config/routes.js</span>).  Visit <a href="http://sailsjs.org">the Sails website</a> for more information on next steps.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="delete">
+            <div class="sprite">You're looking at: <span class="boxy">views/home/index.ejs</span></div>
+        </div>
+    </div>
+    <div class="side-bar">
+        <h4 id="new">
+            New to Sails?
+        </h4>
+        <ul>
+            <li>
+                <a href="http://sailsjs.org">Visit sailsjs.org</a>
+            </li>
+            <li>
+                <a href="http://sailsjs.org/#!documentation">Documentation</a>
+            </li>
+        </ul>
+        <h4>
+            Next Steps
+        </h4>
+        <ul>
+            <li class="sprite single_page">
+                <a target="_blank" href="http://sailsjs.org">Build a single page app</a>
+            </li>
+            <li class="sprite traditional">
+                <a target="_blank" href="http://sailsjs.org">Build a traditional webapp</a>
+            </li>
+            <li class="sprite realtime">
+                <a target="_blank" href="http://sailsjs.org">Build a realtime app</a>
+            </li>
+            <li class="sprite api">
+                <a target="_blank" href="http://sailsjs.org">Build an API</a>
+            </li>
+        </ul>
+    </div>
+</div>
